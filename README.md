@@ -18,6 +18,7 @@ An end-to-end ROS 2 package for an autonomous humanoid football-playing robot. T
 
 ## Package Structure
 
+```text
 humanoid_robot/
 ├── humanoid_robot/
 │   ├── __init__.py
@@ -37,7 +38,7 @@ humanoid_robot/
 ├── package.xml
 ├── setup.py
 └── setup.cfg
-
+```
 ---
 
 ## Hardware Requirements
@@ -94,5 +95,5 @@ Here are live demonstration videos showing the physical humanoid robot executing
 ## Demonstration & Visuals
 
 ### RViz2 Dashboard
-![RViz Dashboard]((https://drive.google.com/drive/folders/1fDSecD5MRIVPfZyPj7adqbcWsh3IhnJT?usp=sharing))
+![RViz Dashboard](https://drive.google.com/drive/folders/1fDSecD5MRIVPfZyPj7adqbcWsh3IhnJT?usp=sharing)
 EOF
