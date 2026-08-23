@@ -91,4 +91,4 @@ Here are live demonstration videos showing the physical humanoid robot executing
 ## Demonstration & Visuals
 
 ### RViz2 Dashboard
-![RViz Dashboard](https://drive.google.com/file/d/1WLcOk_dVFRlDDrc3UdurlMTFzOwlYpDF/view?usp=sharing)
+![RViz Dashboard](https://lh3.googleusercontent.com/d/1WLcOk_dVFRlDDrc3UdurlMTFzOwlYpDF)
