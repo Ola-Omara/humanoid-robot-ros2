@@ -1,6 +1,3 @@
-cd ~/ros2_ws/src/humanoid_robot
-
-cat << 'EOF' > README.md
 # Autonomous Humanoid Football Robot (ROS 2 Jazzy)
 
 An end-to-end ROS 2 package for an autonomous humanoid football-playing robot. This project integrates real-time computer vision, kinematic joint control, serial hardware bridging, and 3D visualization in RViz2.
@@ -21,18 +18,18 @@ An end-to-end ROS 2 package for an autonomous humanoid football-playing robot. T
 ```text
 humanoid_robot/
 ├── humanoid_robot/
-│   ├── __init__.py
-│   ├── camera_node.py
-│   ├── ball_detector.py
-│   ├── ball_tracker_node.py
-│   ├── dashboard_visualizer.py
-│   └── serial_bridge.py
+│   ├── __init__.py
+│   ├── camera_node.py
+│   ├── ball_detector.py
+│   ├── ball_tracker_node.py
+│   ├── dashboard_visualizer.py
+│   └── serial_bridge.py
 ├── launch/
-│   └── display.launch.py
+│   └── display.launch.py
 ├── urdf/
-│   └── humanoid.urdf
+│   └── humanoid.urdf
 ├── rviz/
-│   └── humanoid_dashboard.rviz
+│   └── humanoid_dashboard.rviz
 ├── resource/
 ├── test/
 ├── package.xml
@@ -64,14 +61,14 @@ humanoid_robot/
 ## Installation & Build
 
 1. Clone the repository into your ROS 2 workspace:
-   cd ~/ros2_ws/src
-   git clone https://github.com/Ola-Omara/humanoid-robot-ros2.git
+   cd ~/ros2_ws/src
+   git clone https://github.com/Ola-Omara/humanoid-robot-ros2.git
 
 2. Install dependencies and build the package:
-   cd ~/ros2_ws
-   rosdep install --from-paths src --ignore-src -r -y
-   colcon build --packages-select humanoid_robot
-   source install/setup.bash
+   cd ~/ros2_ws
+   rosdep install --from-paths src --ignore-src -r -y
+   colcon build --packages-select humanoid_robot
+   source install/setup.bash
 
 ---
 
@@ -90,10 +87,8 @@ Here are live demonstration videos showing the physical humanoid robot executing
 * **[Watch Robot Walking Demo - Part 1](https://drive.google.com/file/d/10_vYo4rd44eTG6COKL5IWmJGkHee-hP4/view?usp=sharing)**
 * **[Watch Robot Walking Demo - Part 2](https://drive.google.com/file/d/1UI73bFwCQl7cQeI9rwdv0nXbJwFOLM2s/view?usp=sharing)**
 
-> **Note:** Access permissions on the Google Drive links are set to "Anyone with the link can view".
 
 ## Demonstration & Visuals
 
 ### RViz2 Dashboard
-![RViz Dashboard](https://drive.google.com/drive/folders/1fDSecD5MRIVPfZyPj7adqbcWsh3IhnJT?usp=sharing)
-EOF
+![RViz Dashboard](https://drive.google.com/file/d/1WLcOk_dVFRlDDrc3UdurlMTFzOwlYpDF/view?usp=sharing)
